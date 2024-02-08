@@ -1,13 +1,15 @@
 const express = require('express');
 const dotenv = require('dotenv');
-const app = express();
-
+const cors = require('cors');
 const productController = require('./products/products.controller');
+
+const app = express();
 
 dotenv.config(); // mengaktifkan config .env
 
 const PORT = process.env.PORT; // get env value
 
+app.use(cors());
 app.use(express.json()); // pass res.body
 
 // controllers
