@@ -1,13 +1,13 @@
 {
 	"name": "be-express",
 	"version": "1.0.0",
-	"description": "fs_voidfnc",
+	"description": "fsw_learn",
 	"main": "src/index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [
-		"fs_voidfnc"
+		"fsw_learn"
 	],
 	"author": "Viery Nugroho",
 	"license": "ISC",
